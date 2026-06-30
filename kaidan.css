@@ -16,13 +16,20 @@ body {
      background-size: cover;
      background-attachment: fixed;
 
+
+    
+
 }
 
 @media screen and (max-width: 1200px) {
     body {
         font-size: 16px;
-    
+        
+        
+        
 }
+
+
 }
 
 .hero {
@@ -51,6 +58,7 @@ body {
     .hero strong {
         font-size: 50px;
     }
+
     
 } 
 
@@ -72,7 +80,7 @@ body {
     background-color: rgba(88, 82, 84, 0.52);
     border-radius: 5px;
     margin: 0 15px;
-    padding: 10px;
+    
 
     text-decoration: none;
     border-bottom: 2px solid transparent;
@@ -88,7 +96,11 @@ body {
     .nav-container {
         display: flex;
         flex-direction: column;
+        
+
+        
     }
+    
     
 }
 
@@ -141,7 +153,7 @@ table,
 th,
 td {
     border: 1px solid #fff;
-    padding: 10px;
+    
     margin: 0 auto;
     text-align: center;
     
@@ -166,7 +178,7 @@ table a:hover {
     width: 400px;
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 10px;
+    
     border: 1px solid #f6f3f3;
 
 }
@@ -186,7 +198,7 @@ table a:hover {
     color: rgb(241, 235, 227);
     font-weight: bold;
     width: 100%;
-    padding: 10px;
+    
     /* text-align: center; */
 }
 
@@ -218,9 +230,16 @@ table a:hover {
     .form-row label:first-child,
     .form-title {
         width: 150px;
-}
+    }
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }    
+
     
 }
+    
+
 
 
 
@@ -303,7 +322,7 @@ button {
 
 .footer-map {
     margin: 0;
-    padding: 40px 15px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -314,7 +333,7 @@ button {
 }
 .footer-mapinfo {
     width: 40%;
-    padding: 15px;
+    
 }
 .footer-maplogo {
     font-size: 25px;
@@ -336,12 +355,11 @@ button {
 .footer-copy {
     display: block;
     text-align: center;
-    padding: 10px;
 }
 
 @media screen and (max-width: 1200px) {
     .footer-map {
-      padding: 15px;
+      
       display: block;
     }
     .footer-map iframe {
@@ -390,7 +408,7 @@ button {
     color: rgb(245, 227, 204);
     background-color: rgba(88, 82, 84, 0.52);
     border-radius: 5px;
-    padding: 10px;
+    
 
     border-radius: 6px;
     text-decoration: none;
@@ -402,3 +420,4 @@ button {
     color: #edcbd6;
     border-bottom: 2px solid rgb(245, 227, 204);
 }
+
